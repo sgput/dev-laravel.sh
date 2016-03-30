@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 ##
 # Personal Laravel Development Setup
