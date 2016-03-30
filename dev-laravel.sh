@@ -58,16 +58,11 @@ echo "${CYAN}starting homestead VM ${NORMAL}"
 # open Homestead folder and run Vagrant box
 homestead up
 
-# echo "${LIME_YELLOW}sleeping for 5 seconds"
-# sleep 5s
-
 # open local app in browser, Laravel documentation, Laracasts
 echo "${CYAN}opening quickstart app and Larvavel in Chrome ${NORMAL}"
 open http://quickstart.app # NOTE: update to applicable URL
 open https://laravel.com/docs/5.2
 open https://laracasts.com
-echo "${LIME_YELLOW}sleeping for 3 seconds"
-sleep 3s
 
 # open new terminal tab and cd into local app directory
 echo "${CYAN}opening new terminal tab ${NORMAL}"
