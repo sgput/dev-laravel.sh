@@ -39,7 +39,7 @@ read run
 if [ "$run" == n ] ; then
 exit
 else
-echo "Beginning Laravel Development Setup..."
+echo "${CYAN}Beginning Laravel Development Setup...${NORMAL}"
 
 # open VirtualBox
 open -a VirtualBox
@@ -67,6 +67,9 @@ open https://laracasts.com
 # open new terminal tab and cd into local app directory
 echo "${CYAN}opening new terminal tab ${NORMAL}"
 osascript -e 'tell application "iTerm" to activate' -e 'tell application "System Events" to tell process "iTerm" to keystroke "t" using command down'
+
+# echo confirm script has completed
+echo "${CYAN}Alias in ~/.zshrc cd to home directory ${NORMAL}"
 
 # echo confirm script has completed
 echo "${CYAN}Laravel setup script has completed running ${NORMAL}"
