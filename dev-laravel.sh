@@ -11,7 +11,7 @@
 #
 # Dependencies: Laravel 5.2, Homestead, VirtualBox, Sublime Text, Google Chrome, iTerm
 #
-# Command: bash dev-setup-laravel.sh
+# Command: ldev (alias set up in ~/.zshrc)
 ##
 
 
