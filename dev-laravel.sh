@@ -60,7 +60,6 @@ homestead up
 
 # open local app in browser, Laravel documentation, Laracasts
 echo "${CYAN}opening quickstart app and Larvavel in Chrome ${NORMAL}"
-open http://quickstart.app # NOTE: update to applicable URL
 open https://laravel.com/docs/5.2
 open https://laracasts.com
 
