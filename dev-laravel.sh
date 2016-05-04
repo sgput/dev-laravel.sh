@@ -59,7 +59,7 @@ echo "${CYAN}starting homestead VM ${NORMAL}"
 homestead up
 
 # open local app in browser, Laravel documentation, Laracasts
-echo "${CYAN}opening quickstart app and Larvavel in Chrome ${NORMAL}"
+echo "${CYAN}opening Laravel docs and Laracasts in Chrome ${NORMAL}"
 open https://laravel.com/docs/5.2
 open https://laracasts.com
 
