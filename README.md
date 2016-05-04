@@ -1,6 +1,6 @@
 # Personal Local Laravel Development Setup
 
-Description: Opens Google Chrome, Virtual Box and Sublime Text. Changes into appropriate directories in iTerm tabs, ssh's into Homestead VM.
+Description: Opens Google Chrome, VirtualBox and Sublime Text. Changes into appropriate directories in iTerm tabs, ssh's into Homestead VM.
 
 Dependencies include:
   * Laravel 5.2
