@@ -55,9 +55,8 @@ echo "${CYAN}starting homestead VM ${NORMAL}"
 homestead up
 
 # open local app in browser, Laravel documentation, Laracasts
-echo "${CYAN}opening Laravel docs and Laracasts in Chrome ${NORMAL}"
+echo "${CYAN}opening Laravel docs in Chrome ${NORMAL}"
 open https://laravel.com/docs/5.2
-open https://laracasts.com
 
 # open new terminal tab and cd into local app directory
 echo "${CYAN}opening new terminal tab ${NORMAL}"
